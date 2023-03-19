@@ -1,20 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { StyleSheet, Text, View, Image } from 'react-native';
+import FoodDash from "./pages/foodDashboard"
+// const offer = require('./offer.svg')
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>lol</Text>
-      <StatusBar style="auto" />
-    </View>
+    <FoodDash/>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  container:{
+    marginTop:40,
+    flexDirection:'row',
+    flexWrap:'wrap',
+    alignItems:'center'
+  }
+})
