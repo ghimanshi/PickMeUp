@@ -43,11 +43,7 @@ const SmallShopCard = (props) => {
 const styles = StyleSheet.create({
     container: {
         width: 236, 
-        height: 230, 
-        marginTop: 17,
-        marginBottom: 32,
-        marginRight: 16,
-        marginLeft: 16,
+        height: 230,
         backgroundColor: "#FFFFFF", 
         borderRadius: 16, 
         display: "flex", 
@@ -91,7 +87,7 @@ const styles = StyleSheet.create({
     },
     name: {
         fontWeight: 500, 
-        textAlign: "center",
+        paddingLeft:16,
         fontSize: 16, 
         color: "#020314", 
     },
